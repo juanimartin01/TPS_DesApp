@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla API</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+    crossorigin="anonymous">
+</head>
+<body>
+
+<br>
+<div class="container">
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="nombre">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Apellido</label>
+      <input type="text" class="form-control" id="apellido">
+    </div>
+    <div class="col-md-6">
+      <label for="inputAddress" class="form-label">Direccion</label>
+      <input type="text" class="form-control" id="direccion">
+    </div>
+    <div class="col-md-6">
+      <label for="inputAddress2" class="form-label">Titulo</label>
+      <input type="text" class="form-control" id="titulo">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Avatar</label>
+      <input type="text" class="form-control" id="avatar">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Edad</label>
+      <input type="number" class="form-control" id="edad">
+    </div>
+    <div class="col-12">
+      <button id="crearPersona" class="btn btn-primary">Crear</button>
+    </div>
+  </form>
+</div> <br>
+
+<table class="table table-striped" >
+  <caption>Lista de usuarios</caption>
+    <thead >
+    <th>ID</th>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Direccion</th>
+    <th>Titulo</th>
+    <th>Avatar</th>
+    <th>Edad</th>
+
+    </thead>
+    <tbody id="personas">
+
+    </tbody>
+</table>
+
+
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" 
+crossorigin="anonymous"></script>
+</body>
+</html>
