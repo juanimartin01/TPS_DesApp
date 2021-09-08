@@ -81,7 +81,7 @@ async function getPersonas() {
                 tablerow.append(titulo)
 
                 let avatar = document.createElement("td")
-                avatar.append(document.createTextNode(persona.avatar));
+                avatar.append(document.createElementImgNode(persona.avatar));
                 tablerow.append(avatar)
 
                 let edad = document.createElement("td")
@@ -114,7 +114,6 @@ async function getPersonas() {
     })
 }
 
-
 async function eliminarPersona(id) {
     await fetch(url + "/" + id, {
         method: "DELETE"
@@ -125,7 +124,7 @@ async function eliminarPersona(id) {
     })
 
 }
-/*
+
 async function editarPersona(id) {
     await fetch(url + "/" + id, {
         method: "PUT"
@@ -136,4 +135,3 @@ async function editarPersona(id) {
     })
 
 }
-*/
