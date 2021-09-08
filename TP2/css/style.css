@@ -5,5 +5,7 @@ table{
     border: black 2px solid;
 }
 h1{
+    font-size: larger;
+    font-style: italic;
     text-align: center;
 }
