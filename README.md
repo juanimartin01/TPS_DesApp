@@ -1,4 +1,4 @@
 # TPS_DesApp
 Trabajos Des App
 
-Repositorio para TPS de Desarrollo de App.
+Repositorio TPS de Desarrollo de App.
