@@ -77,7 +77,7 @@ async function getPersonas() {
                 tablerow.append(direccion)  
 
                 let titulo = document.createElement("td")
-                titulo.append(document.createTextNode(persona.direccion));
+                titulo.append(document.createTextNode(persona.titulo));
                 tablerow.append(titulo)
 
                 let avatar = document.createElement("img")
